@@ -1,0 +1,38 @@
+.board {
+  background-image: url("/../public/board.png");
+  width: 1000px;
+  height: 1000px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  // .pause {
+  //   position: fixed;
+  //   bottom: 12px;
+  //   left: 12px;
+  //   background-color: white;
+  //   padding: 24px;
+  //   cursor: pointer;
+  // }
+
+  .score {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: white;
+  }
+
+  .death {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    color: white;
+  }
+
+  .die-image {
+    display: none !important;
+  }
+}

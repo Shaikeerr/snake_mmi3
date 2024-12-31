@@ -1,0 +1,14 @@
+.item {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+
+  &_trap {
+    background-image: url('/../public/cubes.gif');
+    background-size: cover;
+  }
+
+  &_food {
+    background-image : url('/../public/item.png');
+  }
+}

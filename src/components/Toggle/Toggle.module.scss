@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+
+  .mode {
+    font-size: 20px;
+    color: white;
+  }
+
+  .toggle {
+    width: 40px;
+    height: 20px;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    .switch {
+      height: 18px;
+      width: 18px;
+      border-radius: 50%;
+      background-color: black;
+      transition: all 0.2s;
+
+      &_active {
+        transform: translateX(120%);
+      }
+    }
+  }
+}

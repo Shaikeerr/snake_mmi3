@@ -1,0 +1,12 @@
+.btn {
+  padding: 12px 24px;
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  border: solid 1px red;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+}
